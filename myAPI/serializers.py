@@ -4,4 +4,4 @@ from .models import vehicles
 class vehiclesSerializer (serializers.HyperlinkedModelSerializer):
     class Meta:
         model = vehicles
-        fields = ('name','description')
+        fields = ('id','name','description')
